@@ -2,6 +2,7 @@
 import { createRouter, createWebHistory } from 'vue-router'; 
 import Home from '@/pages/HomePage.vue';
 import About from '@/pages/AboutPage.vue';
+import WelcomePage from '@/pages/WelcomePage.vue';
 import PreventivePage from '@/pages/PreventivePage.vue';
 import CorrectivePage from '@/pages/CorrectivePage.vue';
 import BanknoteCounter from '@/pages/BanknoteCounter.vue';
@@ -10,6 +11,7 @@ import BanknoteSorting from '@/pages/BanknoteSorting.vue';
 import CurrencyPage from '@/pages/CurrencyPage.vue';
 
 const routes = [
+  { path: '/mirda-portofolio', component: WelcomePage },
   { path: '/', component: Home },
   { path: '/about', component: About },
   { path: '/preventive-page', component: PreventivePage },
