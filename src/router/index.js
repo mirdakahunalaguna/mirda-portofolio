@@ -1,5 +1,7 @@
 // router.js
 import { createRouter, createWebHistory } from 'vue-router'; 
+import Login from '@/pages/LoginPage.vue';
+import SignUp from '@/pages/SignUpPage.vue';
 import Home from '@/pages/HomePage.vue';
 import About from '@/pages/AboutPage.vue';
 import WelcomePage from '@/pages/WelcomePage.vue';
@@ -13,6 +15,8 @@ import CurrencyPage from '@/pages/CurrencyPage.vue';
 const routes = [
   { path: '/mirda-portofolio', component: WelcomePage },
   { path: '/', component: Home },
+  { path: '/login', component: Login },
+  { path: '/sign-up', component: SignUp },
   { path: '/about', component: About },
   { path: '/preventive-page', component: PreventivePage },
   { path: '/corrective-page', component: CorrectivePage },
