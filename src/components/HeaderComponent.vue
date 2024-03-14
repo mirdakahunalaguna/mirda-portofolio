@@ -100,7 +100,8 @@
                 </div>
               </PopoverPanel>
             </transition>
-          </Popover>                            
+          </Popover>      
+                                
           <router-link to="/currency-page">
             <link-custome title="Currency"></link-custome>
           </router-link> 
